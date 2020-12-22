@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=03:8B:2B:12:A5:6A:52:83:33:8F:2D:DD:58:E3:A3:AD:BC:BA:D6:9A%3Bcom.example.roxio
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.roxio
+
+    SHA-1 certificate fingerprint:
+    03:8B:2B:12:A5:6A:52:83:33:8F:2D:DD:58:E3:A3:AD:BC:BA:D6:9A
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCOR-Nkj3NribnZFrIMyYx_IUlWZ3SWuBU</string>
+</resources>

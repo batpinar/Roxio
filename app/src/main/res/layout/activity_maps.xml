@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+        <!--<fragment
+            android:id="@+id/place_autocomplete"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            android:layout_width="325dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="@+id/map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />-->
+
+    <Button
+        android:id="@+id/log_out_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/verification_circle"
+        android:backgroundTint="@color/white"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_iconfinder_icons_exit2_1564506"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/verification_circle"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_iconfinder_home_309062"
+        app:iconTint="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/verification_circle"
+        android:textStyle="bold"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_iconfinder_iconoteka_history_b_s_3507760"
+        app:iconTint="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/homeButton" />
+
+    <Button
+        android:id="@+id/currentLocButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/verification_circle"
+        app:backgroundTint="@color/white"
+        app:icon="@drawable/ic_iconfinder_ic_gps_not_fixed_48px_352407"
+        app:iconTint="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

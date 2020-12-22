@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "875934405480",
+    "project_id": "roxio-ded4a",
+    "storage_bucket": "roxio-ded4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875934405480:android:e470af5502be6ea86afcdd",
+        "android_client_info": {
+          "package_name": "com.example.roxio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875934405480-7514fpo4a3njtlp8bmnrukmt3te1d8ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roxio",
+            "certificate_hash": "038b2b12a56a5283338f2ddd58e3a3adbcbad69a"
+          }
+        },
+        {
+          "client_id": "875934405480-g4bvj1nh5arksbnokfr6sj0a86j15u18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK4uZlE7brMzS_PboFwJ8cMzg2iDTFSFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875934405480-g4bvj1nh5arksbnokfr6sj0a86j15u18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

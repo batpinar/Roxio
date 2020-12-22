@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="welcome_to_">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #0D1723
+        </item>
+
+    </style>
+
+    <style name="get_started">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="verificatio">
+
+        <item name="android:textSize">
+            35sp
+        </item>
+
+        <item name="android:textColor">
+            #0D1723
+        </item>
+
+    </style>
+
+</resources>
